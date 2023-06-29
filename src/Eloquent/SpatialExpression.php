@@ -15,4 +15,14 @@ class SpatialExpression extends Expression
     {
         return $this->value->toWkt();
     }
+
+    public function getLat()
+    {
+        $this->value->getLat();
+    }
+    
+    public function getLng()
+    {
+        $this->value->getLng();
+    }
 }
