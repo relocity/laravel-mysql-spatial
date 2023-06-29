@@ -20,4 +20,14 @@ class SpatialExpression extends Expression
     {
         return $this->value->getSrid();
     }
+
+    public function getLat()
+    {
+        $this->value->getLat();
+    }
+    
+    public function getLng()
+    {
+        $this->value->getLng();
+    }
 }
